@@ -1,0 +1,28 @@
+{
+    "manifest_version": 3,
+    "name": "Quick Annotate",
+    "version": "1.0",
+    "description": "Right-click to draw on and screenshot the current page.",
+    "permissions": [
+        "contextMenus",
+        "activeTab",
+        "tabs",
+        "clipboardWrite"
+    ],
+    "background": {
+        "service_worker": "background.js"
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "<all_urls>"
+            ],
+            "js": [
+                "content.js"
+            ],
+            "css": [
+                "styles.css"
+            ]
+        }
+    ]
+}

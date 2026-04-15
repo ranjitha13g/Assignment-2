@@ -17,6 +17,8 @@ A lightweight Chrome extension that lets you annotate, highlight, erase, snip, a
 
 ---
 
+ [Watch the Demo on YouTube](https://youtu.be/EJ9PuTIeNwY) 
+
 ## 🚀 Installation
 
 > **No internet connection required. Load the extension directly from your local files.**
